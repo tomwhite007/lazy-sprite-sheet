@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
+import { LazySpriteSheetComponent } from './lazy-sprite-sheet/lazy-sprite-sheet.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [NxWelcomeComponent, RouterModule, LazySpriteSheetComponent],
   selector: 'lazy-sprite-sheet-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
