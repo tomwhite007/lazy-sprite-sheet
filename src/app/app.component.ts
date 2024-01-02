@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { PageHeaderComponent } from './page-header.component';
 import { LazySpriteSheetComponent } from './lazy-sprite-sheet/lazy-sprite-sheet.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule, LazySpriteSheetComponent],
-  selector: 'lazy-sprite-sheet-root',
+  imports: [PageHeaderComponent, RouterModule, LazySpriteSheetComponent],
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {
-  title = 'lazy-sprite-sheet';
-}
+export class AppComponent {}
