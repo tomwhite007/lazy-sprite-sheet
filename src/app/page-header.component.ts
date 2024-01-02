@@ -2,7 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lazy-sprite-sheet-page-header',
+  selector: 'page-header',
   standalone: true,
   imports: [CommonModule],
   template: `
